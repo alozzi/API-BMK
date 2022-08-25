@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:element name="root" msdata:IsDataSet="true">
+            
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Skills" xml:space="preserve">
+        <value>{"Other_Tests":["NoSkillCode000033","NoSkillCode000032","NoSkillCode000031","NoSkillCode000030","NoSkillCode000029","NoSkillCode000028","NoSkillCode000027","NoSkillCode000026","NoSkillCode000025","NoSkillCode000024","NoSkillCode000023","NoSkillCode000022","NoSkillCode000021","NoSkillCode000020","NoSkillCode000019","NoSkillCode000018","NoSkillCode000017","NoSkillCode000016","NoSkillCode000015","NoSkillCode000014","NoSkillCode000013","NoSkillCode000012","NoSkillCode000011"],"Xpert":["Xpert374298","Xpert371708","Xpert371704","Xpert371664","Xpert371652","Xpert371648","Xpert371640","Xpert371636","Xpert371632","Xpert371624","Xpert371620","Xpert371616","Xpert371612","Xpert371700","Xpert371696","Xpert371692","Xpert371688","Xpert371680","Xpert371676","Xpert371672","Xpert371668","Xpert371644","Xpert371604","Xpert371600","Xpert371596","Xpert371584","Xpert371580"],"Certification":["9859","CHP485","CHP484","CHP483","CHP482"],"Profession":["SKILL-007","TEST666","DINO-760","KLIK-9999","Adecco58","Adecco57","Adecco56","Adecco55","Adecco54","Adecco53","Adecco52","Adecco51","Adecco50","Adecco49","Adecco48","Adecco47","Adecco46","Adecco45","Adecco44","Adecco43","Adecco42","Adecco41","Adecco40","Adecco39","Adecco38","Adecco37","Adecco36","Adecco35","Adecco34","Adecco33","Adecco32","Adecco31","Adecco30","Adecco29","Adecco28","Adecco27","Adecco26","Adecco25","Adecco24","Adecco23","Adecco22","Adecco21","Adecco20","Adecco19","Adecco18"]}</value>
+    </data>
+</root>
