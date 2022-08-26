@@ -61,7 +61,7 @@ namespace Benchmark {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 00D5t0000004cEv!ARMAQIXyhT2lDpKM5A8vSjiha6EkTryZlGGRTrj8kMFNiTDSX4mdGS74TAiKfqOjv4Pr9tY84SqFqkPmlgVBJ7H3_WupFi0u.
+        ///   Looks up a localized string similar to 00D5t0000004cEv!ARMAQHjrOpWLNSXxLOUYPk7RA1ZgzElDQ0QzWHw5zhKGU4Irkcu2j10bmfjYpi8239eeir_pQ1sUzTGjNrCTAHw.gAWXMzb9.
         /// </summary>
         internal static string AccessToken {
             get {
@@ -70,7 +70,7 @@ namespace Benchmark {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to [&quot;991b7b50-194e-4e3b-a78c-6284a9306a91&quot;,&quot;318f67c7-d2f7-41b4-aa31-d58f7e29a125&quot;,&quot;2f01b5ea-adac-4973-965c-093fa3f4f08c&quot;,&quot;74f7dfbd-146c-4466-adad-2abd1fd2aee8&quot;,&quot;448269be-c195-4ee6-9e6b-89345b7212a2&quot;,&quot;35750ced-ae21-493a-9dd6-95a4ca10dfab&quot;,&quot;6f48b1b7-d822-482d-9237-087aff68eef5&quot;,&quot;1f31dfe5-d988-4ca7-abcb-53cad01b4c8b&quot;,&quot;183857e6-5eac-4c29-8286-88cc3675f0e5&quot;,&quot;53060437-65a0-41a7-8687-03ce43513c6b&quot;,&quot;1f6921ad-8854-40b0-961d-db1a593d1551&quot;,&quot;b43249d1-4d0b-4ef7-aa42-f260b283087c&quot;,&quot;99014377-129f-4414-884d-4ff7473fe7d2&quot;,&quot;a81 [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to [&quot;712a0f91-c2ec-47fa-9065-803169d5984f&quot;,&quot;305c9c51-0784-4c5e-9f71-b3036051eaf8&quot;,&quot;991b7b50-194e-4e3b-a78c-6284a9306a91&quot;,&quot;318f67c7-d2f7-41b4-aa31-d58f7e29a125&quot;,&quot;2f01b5ea-adac-4973-965c-093fa3f4f08c&quot;,&quot;74f7dfbd-146c-4466-adad-2abd1fd2aee8&quot;,&quot;448269be-c195-4ee6-9e6b-89345b7212a2&quot;,&quot;35750ced-ae21-493a-9dd6-95a4ca10dfab&quot;,&quot;6f48b1b7-d822-482d-9237-087aff68eef5&quot;,&quot;1f31dfe5-d988-4ca7-abcb-53cad01b4c8b&quot;,&quot;183857e6-5eac-4c29-8286-88cc3675f0e5&quot;,&quot;53060437-65a0-41a7-8687-03ce43513c6b&quot;,&quot;1f6921ad-8854-40b0-961d-db1a593d1551&quot;,&quot;b43 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string CandidateGuids {
             get {
@@ -88,11 +88,137 @@ namespace Benchmark {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to INVALID_SESSION_ID.
+        /// </summary>
+        internal static string ErrorCodeInvalidSessionId {
+            get {
+                return ResourceManager.GetString("ErrorCodeInvalidSessionId", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to UNABLE_TO_LOCK_ROW.
+        /// </summary>
+        internal static string ErrorCodeUnableToLockRow {
+            get {
+                return ResourceManager.GetString("ErrorCodeUnableToLockRow", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to report.txt.
+        /// </summary>
+        internal static string FilePathReport {
+            get {
+                return ResourceManager.GetString("FilePathReport", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] Creating {1} Skill(s) for each one of {2} candidates.
+        /// </summary>
+        internal static string MessageCreatingSkills {
+            get {
+                return ResourceManager.GetString("MessageCreatingSkills", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The access token is invalid or expired..
+        /// </summary>
+        internal static string MessageErrorInvalidToken {
+            get {
+                return ResourceManager.GetString("MessageErrorInvalidToken", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] An unexpected error occurred: {1}.
+        /// </summary>
+        internal static string MessageErrorUnexpectedError {
+            get {
+                return ResourceManager.GetString("MessageErrorUnexpectedError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] [{1}] {2}.
+        /// </summary>
+        internal static string MessageFailureResult {
+            get {
+                return ResourceManager.GetString("MessageFailureResult", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] Errors:.
+        /// </summary>
+        internal static string MessageReportErrors {
+            get {
+                return ResourceManager.GetString("MessageReportErrors", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] Success: {1}/{2}.
+        /// </summary>
+        internal static string MessageReportSuccessCount {
+            get {
+                return ResourceManager.GetString("MessageReportSuccessCount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] Skill Creation Executed: {1}.
+        /// </summary>
+        internal static string MessageSkillCreationExecuted {
+            get {
+                return ResourceManager.GetString("MessageSkillCreationExecuted", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] Benchmark Complete..
+        /// </summary>
+        internal static string MessageTestEnd {
+            get {
+                return ResourceManager.GetString("MessageTestEnd", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to [{0}] Benchmark Starting....
+        /// </summary>
+        internal static string MessageTestStart {
+            get {
+                return ResourceManager.GetString("MessageTestStart", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No results were received..
+        /// </summary>
+        internal static string NoResults {
+            get {
+                return ResourceManager.GetString("NoResults", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to {&quot;Certification&quot;:[&quot;9859&quot;,&quot;CHP482&quot;,&quot;CHP485&quot;,&quot;CHP484&quot;,&quot;CHP483&quot;,&quot;CHP480&quot;,&quot;CHP479&quot;,&quot;CHP374&quot;,&quot;CHP466&quot;,&quot;CHP464&quot;,&quot;CHP463&quot;,&quot;CHP426&quot;,&quot;CHP425&quot;,&quot;CHP422&quot;,&quot;CHP421&quot;,&quot;CHP418&quot;,&quot;CHP415&quot;,&quot;CHP414&quot;,&quot;CHP411&quot;,&quot;CHP410&quot;,&quot;CHP407&quot;,&quot;CHP406&quot;,&quot;CHP403&quot;,&quot;CHP402&quot;,&quot;CHP400&quot;,&quot;CHP399&quot;,&quot;CHP396&quot;,&quot;CHP395&quot;,&quot;CHP392&quot;,&quot;CHP389&quot;,&quot;CHP388&quot;,&quot;CHP385&quot;,&quot;CHP384&quot;,&quot;CHP381&quot;,&quot;CHP376&quot;,&quot;CHP460&quot;,&quot;CHP459&quot;,&quot;CHP456&quot;,&quot;CHP455&quot;,&quot;CHP453&quot;,&quot;CHP452&quot;,&quot;CHP449&quot;,&quot;CHP448&quot;,&quot;CHP445&quot;,&quot;CHP444&quot;,&quot;CHP442&quot;,&quot;CHP441&quot;,&quot;CHP440&quot;,&quot;CHP437&quot;,&quot;CHP436&quot;,&quot;CHP433&quot;,&quot;CHP432&quot;,&quot;C....
         /// </summary>
         internal static string Skills {
             get {
                 return ResourceManager.GetString("Skills", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to HH:mm:ss:ffff.
+        /// </summary>
+        internal static string TimestampFormat {
+            get {
+                return ResourceManager.GetString("TimestampFormat", resourceCulture);
             }
         }
     }

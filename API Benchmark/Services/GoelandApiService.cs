@@ -1,27 +1,38 @@
-﻿namespace Benchmark.Services;
+﻿using System.Net.Http.Json;
+
+namespace Benchmark.Services;
 
 public class GoelandApiService
 {
-    // region Properties
+    #region Properties
 
     private HttpClient Client
     {
         get
         {
-            if (_client == null)
-            {
-                _client = new HttpClient();
-            }
+            if (_client != null) return _client;
+            
+            _client = new HttpClient();
+            _client.DefaultRequestHeaders.Add("Authorization", "Bearer " + Resources.AccessToken);
 
             return _client;
         }
     }
     
-    // endregion
+    #endregion
     
-    // region Backing Fields
+    #region Backing Fields
 
-    private HttpClient _client;
+    private HttpClient? _client;
     
-    // endregion
+    #endregion
+    
+    #region Public Methods
+
+    public async Task<HttpResponseMessage> PostAsync(string uri, object obj)
+    {
+        return await Client.PostAsJsonAsync(uri, obj);
+    }
+    
+    #endregion
 }

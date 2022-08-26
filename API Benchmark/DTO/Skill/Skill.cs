@@ -2,11 +2,11 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Text.Json;
 
-namespace Benchmark.DTO;
+namespace Benchmark.DTO.Skill;
 
 public class Skill
 {
-    // region Properties
+    #region Properties
 
     private static ImmutableDictionary<string, ImmutableList<string>>? SkillCodesByType => _skillCodesByType ??= JsonSerializer.Deserialize<ImmutableDictionary<string, ImmutableList<string>>>(Resources.Skills);
 
@@ -30,15 +30,15 @@ public class Skill
     [SuppressMessage("ReSharper", "UnusedAutoPropertyAccessor.Global")]
     public bool? verified { get; init; }
 
-    // endregion
+    #endregion
     
-    // region Backing Fields
+    #region Backing Fields
 
     private static ImmutableDictionary<string, ImmutableList<string>>? _skillCodesByType;
     
-    // endregion
+    #endregion
     
-    // region static Methods
+    #region static Methods
 
     public static IEnumerable<Skill> NewRandom(int count, string candidateGuid)
     {
@@ -73,5 +73,5 @@ public class Skill
             .ToList();
     }
     
-    // endregion
+    #endregion
 }
